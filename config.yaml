@@ -1,0 +1,36 @@
+baseURL: "https://blog.runningstream.net/"
+languageCode: "en-us"
+title: "RunningStream"
+theme: "hugo-lamp"
+#googleAnalytics: ""
+
+params:
+  subtitle: "Researching network security"
+  author: "Running Stream LLC"
+  logo: "/img/blog_logo.png"
+  paginate: 10
+  description: "A blog discussing network security research and its application, currently revolving around honeypot research through a variety of protocols including HTTP, SSH, Redis, and SIP"
+
+  seotitle: "RunningStream's Network Security Blog"
+  #googleSiteVerification: ""
+  #msValidate: ""
+  
+  email: "dco@runningstream.net"
+  twitter: "stream_running"
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+menu:
+  main:
+    -
+      name: "Blog Home"
+      weight: 1
+      identifier: "bloghome"
+      url: "/"
+    -
+      name: "RunningStream.net"
+      weight: 2
+      identifier: "mainpage"
+      url: "https://runningstream.net"

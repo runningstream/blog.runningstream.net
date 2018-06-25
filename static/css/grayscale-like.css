@@ -1,0 +1,38 @@
+body, .header {
+  background-color: black;
+}
+
+body, .entry-time {
+  color: #e6e6e6;
+}
+
+a,
+.post-title, .entry-link,
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content pre
+{
+  color: white;
+}
+
+.post-header::after {
+  border-bottom-color: #464646;
+}
+
+.entry-list, .post-detail,
+.post-content code, .post-content tt
+{
+  background-color: #262626;
+}
+
+.entry-single, .post-tag,
+.post-content pre
+{
+  background-color: #464646;
+}
+
+.post-tag:hover {
+  background-color: #868686;
+}
+
+a:focus, a:hover {
+  opacity: 1;
+}

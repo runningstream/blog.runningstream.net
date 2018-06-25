@@ -1,0 +1,16 @@
+<footer class="footer">
+  <p>Copyright © {{ if eq now.Year 2018 }}2018{{ else }}2018-{{ now.Year }}{{ end }} {{ .Site.Title }}</p>
+</footer>
+
+{{ partial "adsense-sticky.html" . }}
+
+{{ if .Site.GoogleAnalytics }}
+<amp-analytics type=googleanalytics>
+  <script type=application/json>
+    {
+      "vars": { "account": {{ .Site.GoogleAnalytics }} },
+      "triggers": { "trackPageview": { "on": "visible", "request": "pageview" } }
+    }
+  </script>
+</amp-analytics>
+{{ end }}
