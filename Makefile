@@ -1,5 +1,8 @@
+FILENAME = `date +blog.runningstream.net_%Y_%m_%d`
+
 all:
 	rm -rf public
 	hugo
-	tar cfj site.tar.bz2 public
-	rm -rf public
+	mv public ${FILENAME}
+	tar cfj ${FILENAME}.tar.bz2 ${FILENAME}
+	rm -rf ${FILENAME}
