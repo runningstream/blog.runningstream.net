@@ -1,5 +1,5 @@
 ---
-title: "Disinvited by User Agent Retry - Windows"
+title: "Dis-invited by User Agent Retry - Windows"
 #author: "Author Name"
 description: "The capture of that which eluded me previously"
 #cover: "/img/cover.jpg"
@@ -8,7 +8,7 @@ date: 2018-06-28T00:00:00-00:00
 draft: false
 ---
 
-Finally, a chance to grab the Windows binaries that eluded me in my previous attempts during Disinvited By User Agent.  I had the same attack probing my server this morning attempting to download and execute a Windows script, but this time I determined the correct user agent for the .Net WebClient class - it's blank.  The class, by default, doesn't send any headers...
+Finally, a chance to grab the Windows binaries that eluded me in my previous attempts during Dis-invited By User Agent.  I had the same attack probing my server this morning attempting to download and execute a Windows script, but this time I determined the correct user agent for the .Net WebClient class - it's blank.  The class, by default, doesn't send any headers...
 
 curl -A "" hxxp://107.181.174.232/win/checking.ps1 -o checking.ps1
 

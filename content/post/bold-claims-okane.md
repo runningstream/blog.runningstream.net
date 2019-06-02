@@ -22,6 +22,6 @@ The boldness makes me wonder, what kind of OPSEC-like precautions has this perso
 
 Cheap servers...
 
-The attempts to infect using GPON come from 46.243.189.60, which is the same network block as this person's C2-type server...  That IP doesn't have a webserver, but has SSH.
+The attempts to infect using GPON come from 46.243.189.60, which is the same network block as this person's C2-type server...  That IP doesn't have a web server, but has SSH.
 
 It's easy enough to report for abuse...

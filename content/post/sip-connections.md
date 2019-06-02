@@ -41,4 +41,4 @@ There are some more interesting requests though - I saw one the other day reques
 37300d0a0d0a                     70....
 ```
 
-Today, though, I see another type of connection that occurs regularly, but much more rarely than the others.  This request came from the IP address and port it asks for contact back to, geolocated to Russia.  I wonder what would be delivered if my server had connected back sending anything more than just a mirrored data stream - more probes, or exploit code for a vulnerable service?  This server made only one UDP request, the one above, telling me that my reply did not meet its requirements.
+Today, though, I see another type of connection that occurs regularly, but much more rarely than the others.  This request came from the IP address and port it asks for contact back to, geo-located to Russia.  I wonder what would be delivered if my server had connected back sending anything more than just a mirrored data stream - more probes, or exploit code for a vulnerable service?  This server made only one UDP request, the one above, telling me that my reply did not meet its requirements.

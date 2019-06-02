@@ -8,7 +8,7 @@ date: 2018-11-18T00:00:00-00:00
 draft: false
 ---
 
-Glastopf, the web server honeypot, received a couple generic probe attempts from 27.210.190.226, then immediately received a PUT request for "/indexweb4.jsp/" ([Virustotal report](https://www.virustotal.com/#/file/4069fc08a2e40321b778b0627a1f9bc6e0d36922882c6aa97111acd93663a42e)).
+Glastopf, the web server honeypot, received a couple generic probe attempts from 27.210.190.226, then immediately received a PUT request for "/indexweb4.jsp/" ([VirusTotal report](https://www.virustotal.com/#/file/4069fc08a2e40321b778b0627a1f9bc6e0d36922882c6aa97111acd93663a42e)).
 
 ```jsp
 <%@ page language="java" import="java.util.*,java.io.*" pageEncoding="UTF-8"%>

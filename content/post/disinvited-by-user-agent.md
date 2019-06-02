@@ -1,5 +1,5 @@
 ---
-title: "Disinvited from a URL by User-Agent"
+title: "Dis-invited from a URL by User-Agent"
 #author: "Author Name"
 description: "Discussion about attacker traffic providing a URL that blocked connections if they didn't specify a specific user-agent"
 #cover: "/img/cover.jpg"
