@@ -2,7 +2,7 @@
 
 BASE_DIR="."
 
-already_checked="$BASE_DIR/already_URL_checked.txt"
+already_checked="$BASE_DIR/already_spell_checked.txt"
 content_dir="$BASE_DIR/content/post"
 
 for file in "$content_dir/"*; do
@@ -11,13 +11,9 @@ for file in "$content_dir/"*; do
         echo "Skipping $file - already checked"
         continue
     fi
-    echo ""
     echo "Checking $file"
-
-    grep --color=auto "http" "$file"
-    echo ""
-
-    echo -n "Mark $file as URL checked (y/n)? "
+    aspell --dont-backup check "$file"
+    echo -n "Mark $file as spell checked (y/n)? "
     read mark
     if [[ "$mark" =~ [yY] ]]; then
         echo "$file" >> "$already_checked"
