@@ -2,7 +2,7 @@ baseURL: "https://blog.runningstream.net/"
 languageCode: "en-us"
 title: "RunningStream"
 theme: "hugo-lamp"
-#googleAnalytics: ""
+googleAnalytics: "UA-141722794-1"
 
 params:
   subtitle: "Researching network security"
